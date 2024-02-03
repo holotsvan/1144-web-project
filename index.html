@@ -1,49 +1,462 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Figmaland - Craft Exceptional Designs with Figma Experts & Resources
+    Unleash the power of Figma with Figmaland, your trusted design agency. Our team of Figma
+    enthusiasts helps businesses and individuals create stunning, user-friendly interfaces for websites, apps, and more"
+    />
+    <meta
+      name="keywords"
+      content="figma design agency figma experts figma templates
+               ui/ux design web design app design figma collaboration
+               figma prototyping figma plugins figma resources user interface
+               design user experience design interface design interaction design
+               design services custom design design thinking creative agency digital agency"
+    />
+    <meta name="robots" content="index, nofollow" />
+    <meta name="author" content="Ivan Holotsvan" />
+    <meta property="og:title" content="Designs with Figma Experts" />
+    <meta
+      property="og:description"
+      content="Figmaland - Craft Exceptional Designs with Figma Experts & Resources
+    Unleash the power of Figma with Figmaland, your trusted design agency. Our team of Figma enthusiasts helps businesses and individuals."
+    />
+    <meta property="og:image" content="./images/logo-dark.png" />
+
+    <title>Figma Land — design agency</title>
+
+    <style>
+      html{
+        scroll-behavior: smooth;
+      }
+      /* Most svg's are white, so apply this to see them */
+      img[src*="icons/"][src$=".svg"] {
+        filter: invert(1);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- NAVIGATION -->
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#">
+          <img src="./images/logo.png" alt="Figma Land logo" />
+        </a>
+        <!-- SOCIAL ICONS -->
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="./icons/Twitter-icon.svg" alt="Twitter icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./icons/Facebook-icon.svg" alt="Facebook icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./icons/Linkedin-icon.svg" alt="Linkedin icon"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main>
-    <h1 class="text-center text-2xl font-bold mb-4">Look at this funny cat!</h1>
-    <section class="container mx-auto p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">    
-        <figure class="flex items-center justify-center flex-col mb-8">
-            <img src="./img/download.jpeg" alt="Funny cat" class="w-64 h-64 rounded-lg shadow-md object-fill">
-            <figcaption>Loose my brain</figcaption>
-        </figure>
-
-        <figure class="flex items-center justify-center flex-col mb-8">
-            <img src="./img/download2.jpeg" alt="Funny cat" class="w-64 h-64 rounded-lg shadow-md object-fill">
-            <figcaption>Cat is funny</figcaption>
-        </figure>
-
-        <figure class="flex items-center justify-center flex-col mb-8">
-            <img src="./img/images.jpeg" alt="Funny cat" class="w-64 h-64 rounded-lg shadow-md object-fill">
-            <figcaption>Hard worker</figcaption>
-        </figure>
-
-        <figure class="flex items-center justify-center flex-col mb-8">
-            <img src="./img/funnycat.jpeg" alt="Funny cat" class="w-64 h-64 rounded-lg shadow-md object-fill">
-            <figcaption>Smille</figcaption>
-        </figure>
-
-        <figure class="flex items-center justify-center flex-col mb-8">
-            <img src="./img/71ee0aa7ef5fdbf20250c7db2ce27eed.jpg" alt="Funny cat" class="w-64 h-64 rounded-lg shadow-md object-fill">
-            <figcaption>HMMMMMMMMMMMMMM?</figcaption>
-        </figure>
-
-        <figure class="flex items-center justify-center flex-col mb-8">
-            <img src="./img/hello.jpeg" alt="Funny cat" class="w-64 h-64 rounded-lg shadow-md object-fill">
-            <figcaption>Hello!!</figcaption>
-        </figure>
-
-    </section>
+      <!-- HERO -->
+      <section id="home">
+        <h1>The best products starts with Figma</h1>
+        <p>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </p>
+        <a href="#">Try for free</a>
+      </section>
+      <!-- FEATURES -->
+      <section id="about">
+        <div>
+          <h2>Features</h2>
+          <p>
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </p>
+        </div>
+        <ul>
+          <li>
+            <img src="./icons/shape-icon.svg" alt="Shape icon" />
+            <h3>OpenType features Variable fonts</h3>
+            <p>
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </li>
+          <li>
+            <img src="./icons/pen-icon.svg" alt="Pen icon" />
+            <h3>Design with real data</h3>
+            <p>
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </li>
+          <li>
+            <img src="./icons/brush-icon.svg" alt="Brush icon" />
+            <h3>Fastest way to take action</h3>
+            <p>
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </li>
+        </ul>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=ttxPgoO6QsRWBE8Z"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <!-- TRY FOR FREE -->
+      <section id="product">
+        <div>
+          <h2>Fastest way to organize</h2>
+          <p>
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </p>
+          <a href="#">Try For Free</a>
+        </div>
+        <img src="./images/laptop.png" alt="Macbook Pro image" />
+      </section>
+      <!-- SUBSCRIBE  -->
+      <section>
+        <img
+          src="./images/undraw_newsletter_vovu.svg"
+          alt="Person next to envelop"
+        />
+        <div>
+          <span>At your fingertips</span>
+          <h2>Lightning fast prototyping</h2>
+          <form action="/subscribe" method="post">
+            <fieldset>
+              <div>
+                <legend>Subscribe to our Newsletter</legend>
+                <span>Available exclusivery on Figmaland</span>
+              </div>
+              <label for="email">Your Email:</label>
+              <input type="email" id="email" name="email" required />
+              <button type="submit">Subscribe</button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+      <!-- Partners -->
+      <section>
+        <h2>Partners</h2>
+        <p>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </p>
+        <ul>
+          <li>
+            <div>
+              <span>Client Name</span
+              ><img src="./images/partners/google-logo.png" alt="Google Logo" />
+            </div>
+          </li>
+          <li>
+            <div>
+              <span>Client Name</span
+              ><img
+                src="./images/partners/amazone-logo.png"
+                alt="Amazone Logo"
+              />
+            </div>
+          </li>
+          <li>
+            <div>
+              <span>Client Name</span
+              ><img
+                src="./images/partners/microsoft-logo.png"
+                alt="Microsoft Logo"
+              />
+            </div>
+          </li>
+          <li>
+            <div>
+              <span>Client Name</span
+              ><img src="./images/partners/uber-logo.png" alt="Uber Logo" />
+            </div>
+          </li>
+          <li>
+            <div>
+              <span>Client Name</span
+              ><img
+                src="./images/partners/dropbox-logo.png"
+                alt="Dropbox Logo"
+              />
+            </div>
+          </li>
+          <li>
+            <div>
+              <span>Client Name</span
+              ><img src="./images/partners/google-logo.png" alt="Google Logo" />
+            </div>
+          </li>
+          <li>
+            <div>
+              <span>Client Name</span
+              ><img src="./images/partners/google-logo.png" alt="Uber Logo" />
+            </div>
+          </li>
+          <li>
+            <div>
+              <span>Client Name</span
+              ><img
+                src="./images/partners/amazone-logo.png"
+                alt="Amazone Logo"
+              />
+            </div>
+          </li>
+        </ul>
+        <a href="#">Try for free</a>
+      </section>
+      <!-- TESTIMONIAL -->
+      <section>
+        <h2>Testimonial</h2>
+        <img src="./images/partners/ibm-logo.png" alt="IBM logo" />
+        <p>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers who want a simple way to plan their schedule.
+        </p>
+        <div>
+          <img src="./images/person-avatar.png" alt="Person avatar" />
+          <div><span>Organize across</span> <span>UI designer</span></div>
+        </div>
+        <a href="#">More Testimonials</a>
+      </section>
+      <!-- Price -->
+      <section id="pricing">
+        <h2>Pricing</h2>
+        <p>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </p>
+        <div>
+          <ul>
+            <li>
+              <div>
+                <h3>FREE</h3>
+                <p>Organize across all apps by hand</p>
+                <div>
+                  <em>0</em>
+                  <div><span>$</span><span>Per Month</span></div>
+                </div>
+                <ul>
+                  <li>Pricing feature</li>
+                  <li>Pricing feature</li>
+                  <li>Pricing feature</li>
+                  <li>Pricing feature</li>
+                  <li>Pricing feature</li>
+                </ul>
+                <a href="#">Order now</a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>STANDART</h3>
+                <p>Organize across all apps by hand</p>
+                <div>
+                  <em>10</em>
+                  <div><span>$</span><span>Per Month</span></div>
+                </div>
+                <ul>
+                  <li>Pricing feature</li>
+                  <li>Pricing feature</li>
+                  <li>Pricing feature</li>
+                  <li>Pricing feature</li>
+                  <li>Pricing feature</li>
+                </ul>
+                <a href="#">Order now</a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>BUSINESS</h3>
+                <p>Organize across all apps by hand</p>
+                <div>
+                  <em>99</em>
+                  <div><span>$</span><span>Per Month</span></div>
+                </div>
+                <ul>
+                  <li>Pricing feature</li>
+                  <li>Pricing feature</li>
+                  <li>Pricing feature</li>
+                  <li>Pricing feature</li>
+                  <li>Pricing feature</li>
+                </ul>
+                <a href="#">Order now</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--CTA  -->
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </p>
+        <div>
+          <form action="POST-user">
+            <fieldset>
+              <legend>Contact Us</legend>
+              <input type="text" name="cta" placeholder="Your Name" />
+              <input type="email" name="cta" placeholder="Your Email" />
+              <textarea
+                name="cta"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Your Message"
+              ></textarea>
+            </fieldset>
+            <button type="submit">Send</button>
+          </form>
+          <div>
+            <address>
+              <div>
+                <img src="./icons/map-icon.svg" alt="Location icon" /><span
+                  >6386 Spring St undefined Anchorage, Georgia 12473 United
+                  States</span
+                >
+              </div>
+              <div>
+                <img src="./icons/phone-icon.svg" alt="Phone icon" /><a
+                  href="tel:+8435550130"
+                  >(843) 555-0130</a
+                >
+              </div>
+              <div>
+                <img src="./icons/envelop-icon.svg" alt="envelop icon" /><a
+                  href="mailto:willie.jennings@example.com"
+                  >willie.jennings@example.com</a
+                >
+              </div>
+            </address>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d338649.61403319315!2d34.670737921405184!3d48.46228325182623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe303fd08468f%3A0xa1cf3d5f2c11aba!2z0JTQvdC10L_RgCwg0JTQvdC10L_RgNC-0L_QtdGC0YDQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDQ5MDAw!5e0!3m2!1sru!2sua!4v1706918546238!5m2!1sru!2sua"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <!-- SOCIAL ICONS -->
+            <ul>
+              <li>
+                <a href="#"
+                  ><img src="./icons/Twitter-icon.svg" alt="Twitter icon"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./icons/Facebook-icon.svg" alt="Facebook icon"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./icons/Linkedin-icon.svg" alt="Linkedin icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
-    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
-</body>
+    <!-- FOOTER -->
+    <footer>
+      <nav>
+        <div>
+          <strong>Page</strong>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <strong>Tomothy</strong>
+          <ul>
+            <li><a href="#">Elenar Edvards</a></li>
+            <li><a href="#">Ted Robertson</a></li>
+            <li><a href="#">Annette Russell</a></li>
+            <li><a href="#">Jennie Mckinney</a></li>
+            <li><a href="#">Gloria Richards</a></li>
+          </ul>
+        </div>
+        <div>
+          <strong>Jane Black</strong>
+          <ul>
+            <li><a href="#">Jhon Doe</a></li>
+            <li><a href="#">Jhon Doe</a></li>
+            <li><a href="#">Jhon Doe</a></li>
+            <li><a href="#">Jhon Doe</a></li>
+            <li><a href="#">Jhon Doe</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div>
+        <address>
+          <div>
+            <img src="./icons/map-icon.svg" alt="Location icon" /><span
+              >6386 Spring St undefined Anchorage, Georgia 12473 United
+              States</span
+            >
+          </div>
+          <div>
+            <img src="./icons/phone-icon.svg" alt="Phone icon" /><a
+              href="tel:+8435550130"
+              >(843) 555-0130</a
+            >
+          </div>
+        </address>
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="./icons/Twitter-icon.svg" alt="Twitter icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./icons/Facebook-icon.svg" alt="Facebook icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./icons/Linkedin-icon.svg" alt="Linkedin icon"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
